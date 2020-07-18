@@ -1,0 +1,20 @@
+{
+  "name": "graphql_server_nodejsexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon index.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "json-server": "^0.16.1",
+    "nodemon": "^2.0.4"
+  }
+}
